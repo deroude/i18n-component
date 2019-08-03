@@ -1,7 +1,7 @@
 {
-  "name": "web-components-ui-elements",
-  "version": "2.0.0",
-  "description": "UI elements library based on web components",
+  "name": "i18n-component",
+  "version": "0.0.1",
+  "description": "i18n web component",
   "main": "index.js",
   "scripts": {
     "readme": "doctoc ./README.md",
@@ -12,7 +12,7 @@
     "build:watch": "webpack --config config/webpack.prod.js --watch",
     "serve": "webpack-dev-server --config config/webpack.dev.js"
   },
-  "author": "Yonatan Kra",
+  "author": "Valentin Raduti",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.1.2",
@@ -42,6 +42,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yonatankra/web-components-ui-elements.git"
+    "url": "https://github.com/deroude/i18n-component.git"
   }
 }

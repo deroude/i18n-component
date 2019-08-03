@@ -1,11 +1,11 @@
 import './main';
-import { CEModalWindow } from "./components/ce-modal-window/ce-modal-window";
+import { I18nNode } from "./components/i18n-node/i18n-node";
 
 describe('ui-elements integration tests', () => {
-    describe('ce-modal-window', () => {
+    describe('i18n-node', () => {
         it(`should be defined`, () => {
-            const ceModalWindowClass = window.customElements.get('ce-modal-window');
-            expect(ceModalWindowClass).toBe(CEModalWindow);
+            const i18nNodeClass = window.customElements.get('i18n-node');
+            expect(i18nNodeClass).toBeTruthy();
         });
     });
 });

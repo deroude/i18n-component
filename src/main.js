@@ -1,1 +1,1 @@
-import './components/ce-modal-window';
+import './components/i18n-node';

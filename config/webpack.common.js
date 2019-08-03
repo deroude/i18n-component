@@ -4,12 +4,12 @@ module.exports = {
     entry: {
         'demo/index' : './src/demo/index.js',
         index: './src/main.js',
-        'lib/ce-modal-window/index': './src/components/ce-modal-window/index.js'
+        'lib/i18n-node/index': './src/components/i18n-node/index.js'
     },
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title: 'TDD Challenge',
+            title: 'I18n Component',
             meta: {
                 viewport: 'width=device-width, initial-scale=1'
             }
